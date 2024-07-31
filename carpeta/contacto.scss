@@ -1,7 +1,7 @@
 //variables
-$primary-color: #333;
-$secondary-color: #666;
-$accent-color: #535152;
+$primary-color: rgba(241, 168, 168, 0.89);
+$secondary-color: #424040;
+$accent-color: #3a3838;
 
 * {
 	box-sizing: border-box;
@@ -9,11 +9,12 @@ $accent-color: #535152;
 	padding: 0;
 }
 
+
 body {
 	font-family: Arial, sans-serif;
 	line-height: 1.6;
 	color: $primary-color;
-	background-color: #f2f2f2;
+	background-color: #3a182e;
 }
 
 header {
@@ -30,11 +31,84 @@ nav ul {
 	justify-content: space-between;
 }
 
+
 nav li {
-	margin-right: 20px;
+
+	margin-right: 0px;
+	
 }
 
 nav a {
 	color: #fff;
-	text-decoration: none;
+	text-decoration:black;
+	
+}
+h1{
+	text-align:center;
+	color: #fff;
+}
+
+.h02{
+color: #000000;
+margin: 10%;
+font-weight: 1000;
+ }
+.p1{
+	margin-left: 5%; 
+}
+.imggym01{
+	height: auto;
+	width: auto;
+}
+
+.conteiner {
+	background-image: linear-gradient(to bottom, $accent-color, $secondary-color);
+	background-size: 100% 300px;
+	background-position: 0% 100%;
+	
+	
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-block: 10px;
+	
+}
+
+
+
+
+.servicios {
+	padding: 20px;
+}
+
+.servicios ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.servicios li {
+	margin-bottom: 10px;
+}
+
+.clases {
+	padding: 20px;
+}
+
+.clases ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.clases li {
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: $secondary-color;
+	padding: 10px;
+	text-align: center;
+	color: #fff; 
+	clear: both;
 }
