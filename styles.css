@@ -39,7 +39,7 @@ h1 {
   color: #fff;
 }
 
-.h02 {
+.h2 {
   color: #000000;
   margin: 10%;
   font-weight: 1000;
@@ -64,8 +64,21 @@ h1 {
   margin-block: 10px;
 }
 
+button {
+  background-color: rgba(241, 168, 168, 0.89);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.carrusell {
+  max-width: 800px;
+  max-height: 600px;
+  margin-left: 300px;
+}
+
 .servicios {
   padding: 20px;
+  background-color: #424040;
+  margin-top: 100px;
 }
 
 .servicios ul {

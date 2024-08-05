@@ -46,29 +46,18 @@ h2 {
   margin-top: 50px;
 }
 
-.contenido1 {
+p {
+  margin-left: 5%;
+}
+
+.conteiner1 {
   padding: 2px;
   background-color: rgba(83, 64, 64, 0.89);
   margin-top: 15px;
 }
 
-.p1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  justify-content: center;
-}
-
-.contenido2 {
-  padding: 2px;
-  background-color: rgba(83, 64, 64, 0.89);
-  margin-top: 15px;
-}
-
-.p2 {
-  margin-top: 50px;
-  margin-left: 50%;
-  color: #000000;
-  font-size: 30px;
+p {
+  margin-right: 40px;
 }
 
 img {
@@ -80,8 +69,8 @@ footer {
   padding: 10px;
   text-align: center;
   color: #fff;
-  margin-top: 2px;
+  margin-top: 20px;
   margin-bottom: 0%;
 }
 
-/*# sourceMappingURL=servicios.css.map */
+/*# sourceMappingURL=servicio.css.map */
