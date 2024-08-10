@@ -12,16 +12,20 @@ $accent-color: #3a3838;
 
 
 body {
+	margin:5% ;
 	font-family: Arial, sans-serif;
 	line-height: 1.6;
 	color: $primary-color;
 	background-color: #3a182e;
+	
 }
 
 header {
 	background-color: $secondary-color;
 	padding: 20px;
 	text-align: center;
+	filter: drop-shadow( 0 0 10px rgba(7, 3, 3, ));
+
 }
 
 nav ul {
@@ -36,6 +40,12 @@ nav ul {
 nav li {
 
 	margin-right: 0px;
+	transition: 0.5s;
+	object-fit: cover;
+
+}
+li:hover{
+	scale: 1.2;
 	
 }
 
@@ -47,12 +57,15 @@ nav a {
 h1{
 	text-align:center;
 	color: #fff;
+	filter: drop-shadow( 0 0 10px rgba( 255, 255, 255, .8));
 }
 
-.h2{
-color: #000000;
+h2{
+color: #69324e;
 margin: 10%;
 font-weight: 1000;
+filter: drop-shadow(0 0 10px rgb(0 0 0 ));
+
  }
 .p1{
 	margin-left: 5%; 
@@ -75,57 +88,42 @@ font-weight: 1000;
 	
 }
 
-
-
-
-
-
 button{
+	margin-left: 30px;
+	width: 150px;
 	background-color: $primary-color;
 font-family: Arial, Helvetica, sans-serif;
+transition: 0.5s;
+	object-fit: cover;
+
+}
+button:hover{
+	scale: 1.2;
 }
 
 .carrusell{
-	max-width: 800px;
-	max-height: 600px;
+	width: 800px;
+	height: 500px;
    margin-left: 300px ;
    
 }
 
-.servicios {
-	padding: 20px;
-	background-color:$secondary-color ;
-	margin-top: 100px;
-}
+section{
+	margin-top: 10%;}
 
-.servicios ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+.caja{	
+	box-shadow: 0 0 15px rgba(0 0 0 );
 }
+.one:hover{
+	scale: none 
 
-.servicios li {
-	margin-bottom: 10px;
 }
-
-.clases {
-	padding: 20px;
-}
-
-.clases ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.clases li {
-	margin-bottom: 10px;
-}
-
 footer {
 	background-color: $secondary-color;
 	padding: 10px;
 	text-align: center;
 	color: #fff; 
 	clear: both;
+	box-shadow:(0 0 10px rgb(0, 0, 0, .3));
+
 }

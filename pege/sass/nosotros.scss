@@ -11,6 +11,7 @@ $accent-color: #3a3838;
 
 
 body {
+	margin:5% ;
 	font-family: Arial, sans-serif;
 	line-height: 1.6;
 	color: $primary-color;
@@ -21,6 +22,8 @@ header {
 	background-color: $secondary-color;
 	padding: 20px;
 	text-align: center;
+	filter: drop-shadow( 0 0 10px rgba(7, 3, 3, ));
+
 }
 
 nav ul {
@@ -35,6 +38,12 @@ nav ul {
 nav li {
 
 	margin-right: 0px;
+	transition: 0.5s;
+	object-fit: cover;
+
+}
+li:hover{
+	scale: 1.2;
 	
 }
 
@@ -47,31 +56,44 @@ h1{
 	text-align:center;
 	color: #fff;
 	
+	filter: drop-shadow( 0 0 10px rgba( 255, 255, 255, .8));
 }
 
 h2{
 color: #000000;
 text-align: center;
 font-weight: 1000;
-margin-top: 50px;
+margin-top: 40px;
+filter: drop-shadow( 0 0 10px rgba( 255, 255, 255, .8));
  }
+
 p{
 	margin-left: 5%; 
 }
 
 .conteiner1 {
 	padding: 2px;
-	background-color:rgba(83, 64, 64, 0.89);
+	background-color: rgba(83, 64, 64, .8);
 	margin-top: 15px;
 	
 }
 
+.row{
+	margin-top: 5%;
+}
 	
  p{
 	margin-right: 40px;
  }
 img{
 	margin-left: 90px;
+	width: 600px;
+	height: 400px;
+	transition: 0.5s;
+	object-fit: cover;
+}
+img:hover{
+	scale: 1.01;
 }
 
 footer {
@@ -81,5 +103,6 @@ footer {
 	color: #fff; 
 	margin-top: 20px;
 	margin-bottom: 0%;
-	
+	box-shadow:(0 0 10px rgb(0, 0, 0, .3));
+
 }

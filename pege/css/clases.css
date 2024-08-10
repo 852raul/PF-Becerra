@@ -5,6 +5,7 @@
 }
 
 body {
+  margin: 5%;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: rgba(241, 168, 168, 0.89);
@@ -15,6 +16,7 @@ header {
   background-color: #424040;
   padding: 20px;
   text-align: center;
+  filter: drop-shadow(0 0 10px rgb(7, 3, 3));
 }
 
 nav ul {
@@ -27,6 +29,12 @@ nav ul {
 
 nav li {
   margin-right: 0px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+li:hover {
+  scale: 1.2;
 }
 
 nav a {
@@ -37,31 +45,24 @@ nav a {
 h1 {
   text-align: center;
   color: #fff;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
 
-.h02 {
+section {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
   color: #000000;
-  margin: 10%;
+  text-align: center;
   font-weight: 1000;
+  margin-top: 40px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
 }
 
-.p1 {
-  margin-left: 5%;
-}
-
-.imggym01 {
-  height: auto;
-  width: auto;
-}
-
-.conteiner {
-  background-image: linear-gradient(to bottom, #3a3838, #424040);
-  background-size: 100% 300px;
-  background-position: 0% 100%;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  margin-block: 10px;
+p {
+  margin-top: 5%;
+  margin-left: 20%;
 }
 
 footer {
@@ -70,4 +71,8 @@ footer {
   text-align: center;
   color: #fff;
   clear: both;
+  margin-top: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+/*# sourceMappingURL=clases.css.map */

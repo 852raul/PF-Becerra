@@ -5,6 +5,7 @@
 }
 
 body {
+  margin: 5%;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: rgba(241, 168, 168, 0.89);
@@ -15,6 +16,7 @@ header {
   background-color: #424040;
   padding: 20px;
   text-align: center;
+  filter: drop-shadow(0 0 10px rgb(7, 3, 3));
 }
 
 nav ul {
@@ -27,6 +29,12 @@ nav ul {
 
 nav li {
   margin-right: 0px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+li:hover {
+  scale: 1.2;
 }
 
 nav a {
@@ -37,42 +45,45 @@ nav a {
 h1 {
   text-align: center;
   color: #fff;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
 
 h2 {
   color: #000000;
   text-align: center;
   font-weight: 1000;
-  margin-top: 50px;
+  margin-top: 40px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
 
-.contenido1 {
+p {
+  margin-left: 5%;
+}
+
+.conteiner1 {
   padding: 2px;
-  background-color: rgba(83, 64, 64, 0.89);
+  background-color: rgba(83, 64, 64, 0.8);
   margin-top: 15px;
 }
 
-.p1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  justify-content: center;
+.row {
+  margin-top: 5%;
 }
 
-.contenido2 {
-  padding: 2px;
-  background-color: rgba(83, 64, 64, 0.89);
-  margin-top: 15px;
-}
-
-.p2 {
-  margin-top: 50px;
-  margin-left: 50%;
-  color: #000000;
-  font-size: 30px;
+p {
+  margin-right: 40px;
 }
 
 img {
   margin-left: 90px;
+  width: 600px;
+  height: 400px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+img:hover {
+  scale: 1.01;
 }
 
 footer {
@@ -80,8 +91,9 @@ footer {
   padding: 10px;
   text-align: center;
   color: #fff;
-  margin-top: 2px;
+  margin-top: 20px;
   margin-bottom: 0%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-/*# sourceMappingURL=servicios.css.map */
+/*# sourceMappingURL=nosotros.css.map */

@@ -11,6 +11,7 @@ $accent-color: #3a3838;
 
 
 body {
+	margin:5% ;
 	font-family: Arial, sans-serif;
 	line-height: 1.6;
 	color: $primary-color;
@@ -21,6 +22,8 @@ header {
 	background-color: $secondary-color;
 	padding: 20px;
 	text-align: center;
+	filter: drop-shadow( 0 0 10px rgba(7, 3, 3, ));
+
 }
 
 nav ul {
@@ -35,6 +38,12 @@ nav ul {
 nav li {
 
 	margin-right: 0px;
+	transition: 0.5s;
+	object-fit: cover;
+
+}
+li:hover{
+	scale: 1.2;
 	
 }
 
@@ -46,6 +55,7 @@ nav a {
 h1{
 	text-align:center;
 	color: #fff;
+	filter: drop-shadow( 0 0 10px rgba( 255, 255, 255, .8));
 	
 }
 
@@ -78,13 +88,24 @@ margin-top: 50px;
 
 	
  .p2{
+	filter: drop-shadow( 0 0 10px rgba( 255, 255, 255, .8));
+	box-sizing: border-box;
 margin-top: 50px;
-margin-left: 50%;
+margin-left: 20px;
 color: #000000;
 font-size: 30px;
  }
 img{
+	
+	margin-top: 10px;
 	margin-left: 90px;
+	transition: 0.5s;
+	object-fit: cover;
+
+}
+ 
+img:hover{
+	scale: 1.2;
 }
 
 footer {
@@ -94,5 +115,6 @@ padding: 10px;
 	color: #fff; 
 	margin-top: 2px;
 	margin-bottom: 0%;
-	
+	box-shadow:(0 0 10px rgb(0, 0, 0, .3));
+
 }
